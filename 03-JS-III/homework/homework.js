@@ -8,7 +8,15 @@ function imprimirSumaNumeros() {
     // Imprime la suma de los números del 1 al 10
     // Pista: usa un acumulador
     // Tu código:
-}
+    function sumaNumeros(){
+      let acumulador = 0;
+      for (let suma =1; suma<=10; suma++){
+      acumulador += suma;
+      }
+      return acumulador;
+      }
+    
+ }
 
 function encuentraPares(array){
   // Devuelve un arreglo con los pares encontrados
